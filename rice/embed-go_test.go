@@ -13,7 +13,7 @@ func TestEmbedGo(t *testing.T) {
 			[]byte(`package main
 
 import (
-	"github.com/GeertJohan/go.rice"
+	"github.com/segmed/go.rice"
 )
 
 func main() {

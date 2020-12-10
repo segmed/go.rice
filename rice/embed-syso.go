@@ -13,8 +13,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/GeertJohan/go.rice/embedded"
 	"github.com/akavel/rsrc/coff"
+	"github.com/segmed/go.rice/embedded"
 )
 
 const sysoBoxSuffix = ".rice-box.syso"
@@ -45,7 +45,7 @@ import "C"
 import (
 	"bytes"
 	"encoding/gob"
-	"github.com/GeertJohan/go.rice/embedded"
+	"github.com/segmed/go.rice/embedded"
 	"unsafe"
 )
 
