@@ -187,7 +187,7 @@ func operationEmbedSyso(pkg *build.Package) {
 }
 
 func createCoffSyso(boxFilename string, symname string, arch string, data []byte) {
-	boxCoff := coff.NewRDATA()
+	boxCoff := coff.NewRSRC()
 	switch arch {
 	case "386":
 	case "amd64":
